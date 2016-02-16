@@ -8,7 +8,7 @@ Contributors: IDX, LLC
 License: GPLv2 or later
 */
 function dynWrapper_short_code() {
-	return '<div id="idxStart"></div><br/><div id="idxStop"></div>';
+	return '<div id="idxStart"></div><div id="idxStop"></div>';
 }
 add_shortcode('wrapper','dynWrapper_short_code');
 ?>
